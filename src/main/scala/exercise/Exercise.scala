@@ -13,5 +13,6 @@ object Exercise {
       .option("inferSchema", "true")
       .load(fileuri.getPath)
 
+    ModelTrainingApp.train(df)
   }
 }
